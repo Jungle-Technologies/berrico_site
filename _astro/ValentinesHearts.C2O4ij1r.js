@@ -1,4 +1,4 @@
-import{j as e,H as r}from"./heart.pl3ai1q6.js";import{r as i}from"./index.DYrVU9rO.js";const d=50,f=()=>{const[o,n]=i.useState([]);i.useEffect(()=>{const t=Array.from({length:d}).map((a,s)=>({id:s,left:Math.random()*100,size:Math.random()*20+10,duration:Math.random()*10+5,delay:Math.random()*10,opacity:Math.random()*.5+.3,isMelting:!1}));n(t)},[]);const l=t=>{n(a=>a.map(s=>s.id===t?{...s,isMelting:!0}:s))};return e.jsxs(e.Fragment,{children:[e.jsx("style",{children:`
+import{j as e,H as r}from"./heart.pl3ai1q6.js";import{r as i}from"./index.DYrVU9rO.js";const d=15,f=()=>{const[o,n]=i.useState([]);i.useEffect(()=>{const t=Array.from({length:d}).map((a,s)=>({id:s,left:Math.random()*100,size:Math.random()*20+10,duration:Math.random()*10+5,delay:Math.random()*10,opacity:Math.random()*.5+.3,isMelting:!1}));n(t)},[]);const l=t=>{n(a=>a.map(s=>s.id===t?{...s,isMelting:!0}:s))};return e.jsxs(e.Fragment,{children:[e.jsx("style",{children:`
         @keyframes fall {
           0% {
             transform: translateY(-10vh) rotate(0deg);
